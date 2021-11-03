@@ -947,6 +947,7 @@ footer .top-footer {
 footer .top-footer__logo {
   position: relative;
   border-right: 1px solid #393939;
+  width: 17%;
 }
 
 footer .top-footer__links {
@@ -956,10 +957,18 @@ footer .top-footer__links {
   font-size: 19px;
   line-height: 23px;
   color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
   border-right: 1px solid #393939;
+  width: 27%;
+  height: 71px;
 }
 
 footer .top-footer__links a {
@@ -976,8 +985,15 @@ footer .top-footer__links a:last-child {
 
 footer .top-footer__address {
   position: relative;
-  width: 20%;
   border-right: 1px solid #393939;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  height: 71px;
 }
 
 footer .top-footer__address, footer .top-footer__email {
