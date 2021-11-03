@@ -1158,10 +1158,19 @@ section.content-menu .wrapper .block__title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section.content-menu .wrapper .block__title .title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 10px;
+}
+
+section.content-menu .wrapper .block__title .price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 section.content-menu .wrapper .block__description {
