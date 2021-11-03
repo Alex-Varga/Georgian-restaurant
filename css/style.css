@@ -866,6 +866,7 @@ section .block2 .menu-list .menu-item a {
   padding-bottom: 60px;
   position: relative;
   display: none;
+  overflow: hidden;
 }
 
 .block4 .swiper-mob .swiper-slide {
