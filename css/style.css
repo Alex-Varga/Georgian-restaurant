@@ -946,6 +946,7 @@ footer .top-footer {
 
 footer .top-footer__logo {
   position: relative;
+  border-right: 1px solid #393939;
 }
 
 footer .top-footer__links {
@@ -955,15 +956,10 @@ footer .top-footer__links {
   font-size: 19px;
   line-height: 23px;
   color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
+  border-right: 1px solid #393939;
 }
 
 footer .top-footer__links a {
@@ -981,6 +977,7 @@ footer .top-footer__links a:last-child {
 footer .top-footer__address {
   position: relative;
   width: 20%;
+  border-right: 1px solid #393939;
 }
 
 footer .top-footer__address, footer .top-footer__email {
@@ -1030,12 +1027,18 @@ footer .bottom-footer__left p:last-child {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  footer .top-footer__logo {
+    padding: 0;
+    border-right: none;
+  }
   footer .top-footer__links {
     margin: 40px 0 30px;
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
     text-align: center;
+    padding: 0;
+    border-right: none;
   }
   footer .top-footer__address {
     display: -webkit-box;
@@ -1050,6 +1053,8 @@ footer .bottom-footer__left p:last-child {
         -ms-flex: 4;
             flex: 4;
     margin-bottom: 30px;
+    padding: 0;
+    border-right: none;
   }
   footer .top-footer__email {
     -webkit-box-flex: 3;

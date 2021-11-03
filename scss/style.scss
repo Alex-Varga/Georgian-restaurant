@@ -775,14 +775,7 @@ footer {
 
     &__logo {
       position: relative;
-      // &::after {
-      //   content: '';
-      //   position: absolute;
-      //   width: 1px;
-      //   height: 70px;
-      //   background: #393939;
-      //   right: -60px;
-      // }
+      border-right: 1px solid #393939;
     }
     &__links {
       font-family: 'Montserrat', sans-serif;
@@ -791,18 +784,10 @@ footer {
       font-size: 19px;
       line-height: 23px;
       color: #FFFFFF;
-      display: flex;
-      align-items: center;
       flex-wrap: wrap;
       position: relative;
-      // &::after {
-      //   content: '';
-      //   position: absolute;
-      //   width: 1px;
-      //   height: 70px;
-      //   background: #393939;
-      //   right: -60px;
-      // }
+      border-right: 1px solid #393939;
+
       a {
         margin-right: 10px;
         &:first-child {
@@ -816,15 +801,7 @@ footer {
     &__address {
       position: relative;
       width: 20%;
-      // &::after {
-      //   content: '';
-      //   position: absolute;
-      //   width: 1px;
-      //   height: 70px;
-      //   background: #393939;
-      //   right: -60px;
-      //   top: -25px;
-      // }
+      border-right: 1px solid #393939;
     }
     &__address, &__email {
       font-weight: normal;
@@ -861,10 +838,16 @@ footer {
   footer {
     .top-footer {
       flex-direction: column;
+      &__logo {
+        padding: 0;
+        border-right: none;
+      }
       &__links {
         margin: 40px 0 30px;
         flex: 2;
         text-align: center;
+        padding: 0;
+        border-right: none;
       }
       &__address {
         display: flex;
@@ -873,6 +856,8 @@ footer {
         width: 60%;
         flex: 4;
         margin-bottom: 30px;
+        padding: 0;
+        border-right: none;
       }
       &__email {
         flex: 3;
