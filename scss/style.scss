@@ -436,6 +436,10 @@ section {
       height: 100%;
       margin: 62px 0 0 0;
 
+      // .swiper-wrapper {
+      //   left: -140px;
+      // }
+
       .swiper-button-next, .swiper-button-prev {
         background: url(../img/arrow.png) no-repeat center;
         &::after {
