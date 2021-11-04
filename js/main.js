@@ -7,11 +7,23 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-var swiper = new Swiper(".mySwiper-mob", {
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+var swiper = new Swiper(".mySwiper2", {
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    },
+    778: {
+      slidesPerView: 4,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 2,
+    }
+
   },
 });
 
