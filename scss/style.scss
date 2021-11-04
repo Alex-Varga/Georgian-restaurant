@@ -139,7 +139,7 @@ header {
       }
       .burger-menu.open-menu:after {
         transform: rotate(-45deg);
-        bottom: 11px;
+        bottom: 10px;
         transition: 0.4s;
         border-radius: 5px;
       }
@@ -429,16 +429,15 @@ section {
     padding: 72px 0 0 0;
     .container {
       margin: 0 0px;
+      @media (max-width: 778px) {
+        margin: 0 10px;
+      }
     }
     
     .swiper {
       width: 100%;
       height: 100%;
       margin: 62px 0 0 0;
-
-      // .swiper-wrapper {
-      //   left: -140px;
-      // }
 
       .swiper-button-next, .swiper-button-prev {
         background: url(../img/arrow.png) no-repeat center;
@@ -755,6 +754,9 @@ section {
   }
   .container {
     margin: 0 0px;
+    @media (max-width: 778px) {
+      margin: 0 10px;
+    }
   }
   .swiper {
     padding-bottom: 0px;
